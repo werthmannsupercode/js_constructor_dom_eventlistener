@@ -1,0 +1,96 @@
+#result {
+    background-color: #fff;
+    color: #000;
+    display: block;
+}
+
+.style {
+    display: inline-block;
+    border-radius: 5px;
+    background: #666;
+    color: white;
+    padding: 5px;
+}
+
+
+.example {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+}
+
+.listContainer {
+    display: flex;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active,
+.activeLev2_3 {
+    background-color: #4CAF50;
+}
+
+.home {
+    background-color: magenta;
+}
+
+#vorname,
+#nachname,
+#land {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#submitLev2_2 {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#submitLev2_2:hover {
+    background-color: #45a049;
+}
+
+#Lev2_2 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.Lev2_4 {
+    padding: 5px;
+    display: inline-block;
+    background: #999;
+    border-radius: 5px;
+}
